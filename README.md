@@ -10,7 +10,7 @@ Mongoose Agreegate   মানে ডাটাবাসে  এর ডাটা 
 
 
 ### What is Aggreegation  Pipeline ? 
-	একটি Aggreegation  পাইপলাইনে এক বা একাধিক ধাপ থাকে যা  Document গুলি প্রক্রিয়া করে: প্রতিটি পর্যায় ইনপুট Document তে একটি অপারেশন করে। উদাহরণস্বরূপ, একটি পর্যায় নথি ফিল্টার করতে পারে, Group Document , এবং Calculationg VAlues করতে পারে। একটি পর্যায় থেকে আউটপুট যে Document  পরবর্তী পর্যায়ে পাস করা হয়.
+একটি Aggreegation  পাইপলাইনে এক বা একাধিক ধাপ থাকে যা  Document গুলি প্রক্রিয়া করে: প্রতিটি পর্যায় ইনপুট Document তে একটি অপারেশন করে। উদাহরণস্বরূপ, একটি পর্যায় নথি ফিল্টার করতে পারে, Group Document , এবং Calculationg VAlues করতে পারে। একটি পর্যায় থেকে আউটপুট যে Document  পরবর্তী পর্যায়ে পাস করা হয়.
 	 $match
 	 $Group
 	 $sort 
